@@ -1,0 +1,489 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #EFEFEF;
+}
+
+#top{
+	background-color: #474747;
+	height: 110px;
+	font: normal 10px Arial, Helvetica, sans-serif;
+}
+
+#donateLink a{
+	background-color: chocolate;
+}
+
+#updatecolumnRight a {
+	color:black;
+}
+
+#top img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  background: none;
+}
+
+h1 {
+	font: normal 20px Arial, Helvetica, sans-serif;
+	color: dimgray;
+	font-weight: bold;
+}
+
+nav li {
+	display: inline; 
+	
+}
+
+nav ul{
+	margin-left: 250px;
+	padding-top: 30px;
+}
+
+li {
+    float: left;
+    border-right:2px solid #bbb;
+	
+}
+
+li:last-child{
+	border-right: none;
+}
+
+nav a {
+	 float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a:active {
+  background-color: chocolate;
+	color: white;
+}
+
+
+#shell {
+	border: solid, 1px, #000000; 
+	margin-left:auto; 
+	margin-right:auto; 
+	max-width: 800px;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+
+#donateBanner p{
+	margin: 0px;
+}
+
+#intro p{
+	margin: 50px;
+}
+
+
+p{
+	margin: 50px;
+}
+
+#middle p {
+	font: normal 15px Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+
+}
+
+#middle h2 {
+	font: normal 20px Arial, Helvetica, sans-serif;
+		line-height: 50px;
+font-weight: bold;
+}
+
+#middle h3 {
+	font: normal 20px Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+#middle h4{
+	font: normal 20px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+}
+
+#middle h5 {
+		font: normal 13px Arial, Helvetica, sans-serif;
+	line-height: 1px;
+	margin-top: -20px;
+}
+
+#columnLeft{
+	float:left; 
+	width: 400px;
+	display:block;
+}
+
+#DoncolumnLeft{
+	float:left; 
+	width: 400px;
+	display:block;
+}
+
+#DoncolumnRight p{
+	color: black;
+	margin: 1px;
+	
+}
+
+#columnRight{
+	float:right; 
+	width: 400px;
+	display:block;
+}
+
+h2 {
+	background-color: #AD343E;
+	width: 800px;
+	line-height: 50px;
+	color: #FFFFFF;
+	}
+
+footer{
+	clear:both;
+	padding-top: 20px; 
+	padding-bottom: 10px; 
+	background-color: #424242; 
+	border-top-color: #000000;
+	font-size: 15px;
+	text-align: center;
+	height: 200px;
+	color: white;
+	font: normal 15px Arial, Helvetica, sans-serif;
+	
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	color: orangered;
+}
+
+
+button {
+	float:right;
+	border: none;
+  	display: inline-block;
+  	padding: 10px 25px;
+  	color: black;
+  	background-color: #ddd;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+  color: white;
+}
+
+#contactForm h3{
+	color: white;
+		font: normal 20px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+		padding-top: 20px;
+	font-kerning: auto;
+
+}
+
+.involveButton {
+	background-color: chocolate;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font: normal 15px Arial, Helvetica, sans-serif;
+
+}
+
+.involveButton a{
+	color:white;
+	text-decoration: none;
+}
+
+.involveButton a:hover{
+	color:black;
+}
+
+.Donatebutton {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	margin-left: 150px;
+	margin-top: 42px;
+	margin-bottom: 50px;
+	font: normal 15px Arial, Helvetica, sans-serif;
+}
+
+.Donatebutton a{
+	text-decoration: none;
+	color: white;
+}
+	
+.Donatebutton a:hover{
+	color: orangered;
+}
+
+.homeButton {
+	background-color: #AD343E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+margin-bottom: 20px;
+	margin-top: -20px;
+	cursor: pointer;
+	font: normal 15px Arial, Helvetica, sans-serif;
+}
+
+.homeButton a {
+	text-decoration: none;
+	color: white;
+}
+
+.homeButton a:hover {
+	color: chocolate;
+}
+
+#donatecolumnLeft{
+	float:left; 
+	width: 400px;
+	display:block;
+	margin-top: 10px;
+}
+
+
+#donatecolumnLeft p{
+	color: white;
+}
+
+#donatecolumnRight{
+	float:right; 
+	width: 400px;
+	display:block;
+
+}
+
+#donateBox p{
+		font: normal 15px Arial, Helvetica, sans-serif;
+}
+
+#donateBox h3{
+		font: normal 20px Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+		color: white;
+
+}
+
+#twoColumn a{
+	color: black;
+}
+
+#columnLeft p{
+	margin: 50px;
+}
+
+#columnLeft a{
+	color:white;
+}
+
+#columnRight p{
+	margin: 50px;
+}
+
+#columnRight a{
+color:white;}
+
+#featuredBox p{
+	padding-top: -10px;
+	margin-top: -0px;
+}
+
+#contactForm {
+		background-color: gray;
+
+}
+
+#donateBox {
+	background-color: chocolate;
+	height: 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear:both;
+}
+
+#more {display: none;}
+
+#featuredBox {
+	margin: 50px;
+}
+
+
+.column-left{ 
+	float: left; width: 33%; 
+}
+
+.column-right{ 
+	float: right; width: 33%; 
+}
+
+.column-center{ 
+	display: inline-block; width: 33%; 
+}
+
+.slider {
+	max-width: 800px;
+	margin: 0px auto 0px auto; 
+	overflow:hidden; 
+	height:430px; 
+	position:relative;
+}
+
+.slide-group { 
+	width: 100%; 
+	height: 100%; 
+	position: relative;
+}
+
+.slide {
+	width: 100%; 
+	height: 100%; 
+	display: none; 
+	position: absolute;
+}
+
+.slide:first-child { 
+	display: block;
+}
+
+/******BUTTONS******/
+.slide-buttons { 
+	text-align: center;
+}
+
+.slide-btn {
+	border: none; 
+	background: none; 
+	color: #000; 
+	font-size: 200%; 
+	line-height: 0.5em;
+}
+.slide-btn.active, .slide-btn:hover { 
+	color: #ed8e6c;
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next { 
+	cursor: pointer; 
+	position: absolute; 
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease; 
+	border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover { 
+	background-color: rgba(0,0,0,0.8);
+}
+
+.accordion{
+	background-color:white;
+	color:black;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	width:400px;
+}
+
+.accordion li{
+	padding:0px;
+	list-style-type:none;
+	font-family: "Lucida Grande", sans-serif;
+}
+
+.accordion-control{
+	background-color:gray;
+	color:white;
+	font-size:24px;
+	font-family: "Lucida Grande", sans-serif;
+	width:400px;
+	padding:5px;
+	cursor:pointer;	
+}
+
+.accordion-control:hover{
+	color:darkred;
+}
+
+.accordion-panel{
+	display:none;
+	border:1px solid black;
+}
+
+.accordion-panel p{
+	padding:10px;
+	text-align:left;
+	font-size:14px;
+}
+
+.text-overflow {
+      width:670px;
+      height:75px;
+      display:block; 
+      overflow:hidden;
+      word-break: break-word;
+      word-wrap: break-word;
+  }
+
+  .btn-overflow {
+    display:none;
+    text-decoration:none;
+	  font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	  color:black;
+	  font-size:14px;
+  }
